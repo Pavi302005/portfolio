@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta
+      name="description"
+      content="Pavithra Sodavaram: Full-Stack Developer (React.js, Node.js, Spring Boot) based in Bengaluru."
+    />
+    <title>Pavithra | Software Engineer (Full-Stack)</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;700&family=Unbounded:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="nav">
+      <button class="menu" id="menu" aria-label="Toggle menu">☰</button>
+      <nav id="nav">
+        <a href="#about">About</a><a href="#experience">Experience</a
+        ><a href="#projects">Projects</a><a href="#showreel">3D Reel</a
+        ><a href="#certificates">Certificates</a><a href="#skills">Skills</a
+        ><a href="#education">Education</a><a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-resume" data-resume>Resume</button>
+    </header>
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="hi">Hi, I'm Pavithra.</p>
+          <h1>Full-Stack Developer | React.js, Node.js &amp; Spring Boot</h1>
+          <p class="lead">
+            B.Tech (CSE – AI &amp; ML) graduate with three software development
+            internships. I build responsive React interfaces and the REST APIs
+            behind them.
+          </p>
+          <p class="loc">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+              <circle cx="12" cy="10" r="3" /></svg
+            >BTM Layout, Bengaluru, Karnataka, India
+          </p>
+          <p class="avail">
+            Available immediately. Open to on-site work and relocation.
+          </p>
+          <div class="cta-row">
+            <a class="btn" href="#projects">See my projects</a
+            ><a class="btn ghost" href="#contact">Get in touch</a
+            ><button class="btn ghost" data-resume>View resume</button>
+          </div>
+          <div class="social">
+            <a
+              href="mailto:sodavarampavithra@gmail.com"
+              aria-label="Email"
+              title="Email"
+              data-i="mail"
+            ></a
+            ><a
+              href="https://www.linkedin.com/in/pavithra-sodavaram"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="LinkedIn"
+              title="LinkedIn"
+              data-i="in"
+            ></a
+            ><a
+              href="https://github.com/Pavi302005"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="GitHub"
+              title="GitHub"
+              data-i="gh"
+            ></a>
+          </div>
+        </div>
+        <div class="hero-3d" id="hero3d"></div>
+      </section>
+      <section id="about" class="sec about">
+        <div class="tilt about-photo"><img id="aboutImg" alt="Pavithra" /></div>
+        <div>
+          <h2>About me</h2>
+          <p>
+            <b
+              >B.Tech (CSE – AI &amp; ML) graduate and full-stack software
+              engineer</b
+            >
+            with three software development internships. I turn ideas into
+            reliable, well-structured applications, from the React interface a
+            customer sees to the REST API and MySQL database behind it.
+          </p>
+          <p>
+            My stack: Java (Core Java, OOP, Collections), JavaScript (ES6+),
+            React.js, Node.js, Express.js, Spring Boot, JWT authentication and
+            MySQL. I debug with Chrome DevTools and Postman, and I work
+            comfortably with Git, GitHub and agile code reviews.
+          </p>
+          <p>
+            My strongest projects are a Restaurant Management &amp; Ordering
+            System (React, Node.js, Express.js, MySQL) and FreshCart, an
+            e-commerce grocery store. I'm a quick learner with solid OOP, data
+            structures and algorithms foundations.
+          </p>
+          <p>
+            I'm an immediate joiner, open to on-site work and relocation, and
+            eager to contribute to a collaborative team.
+          </p>
+          <div class="stats" id="stats"></div>
+          <ul class="chips">
+            <li>Full-stack development</li>
+            <li>REST APIs &amp; JWT</li>
+            <li>Java &amp; Spring Boot</li>
+            <li>Clean code &amp; Git</li>
+          </ul>
+          <div class="build">
+            <div class="tilt bcard">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                <line x1="8" y1="21" x2="16" y2="21" />
+                <line x1="12" y1="17" x2="12" y2="21" />
+              </svg>
+              <div>
+                <b>Web applications</b
+                ><span
+                  >Full-stack apps with React, Node.js, Express.js and Spring
+                  Boot.</span
+                >
+              </div>
+            </div>
+            <div class="tilt bcard">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="5" y="2" width="14" height="20" rx="2" ry="2" />
+                <line x1="12" y1="18" x2="12.01" y2="18" />
+              </svg>
+              <div>
+                <b>Mobile-ready design</b
+                ><span
+                  >Mobile-first, responsive layouts that work on phones, tablets
+                  and desktops.</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="experience" class="sec tint">
+        <h2>Experience</h2>
+        <div class="xp-list" id="xp"></div>
+      </section>
+      <section id="projects" class="sec">
+        <h2>Projects</h2>
+        <div class="grid" id="projGrid"></div>
+      </section>
+      <section id="showreel" class="sec tint">
+        <h2>My projects in 3D</h2>
+        <div class="reel">
+          <div class="reel-stage">
+            <div
+              class="reel-3d"
+              id="reel3d"
+              tabindex="0"
+              aria-label="3D scene of the selected project. Use the arrow keys or the buttons to change project."
+            ></div>
+            <button
+              class="rnav prev"
+              id="reelPrev"
+              aria-label="Previous project"
+            >
+              &#8249;</button
+            ><button class="rnav next" id="reelNext" aria-label="Next project">
+              &#8250;</button
+            ><span class="rcount" id="reelCount"></span>
+          </div>
+          <div class="reel-copy">
+            <h3 id="reelTitle"></h3>
+            <p id="reelDesc"></p>
+            <ul class="chips" id="reelChips"></ul>
+            <div class="cta-row">
+              <a class="btn" id="reelLink" target="_blank" rel="noreferrer"
+                >Open project</a
+              ><button class="btn ghost" id="reelNext2">
+                Next project &#8594;</button
+              ><button class="btn ghost" id="reelPause">Pause</button>
+            </div>
+            <div class="dots" id="reelDots"></div>
+          </div>
+        </div>
+      </section>
+      <section id="certificates" class="sec">
+        <h2>Certificates</h2>
+        <div class="certs" id="certGrid"></div>
+        <h3 class="grp">Also on my resume</h3>
+        <ul class="chips">
+          <li>
+            Full Stack Developer Internship, Intelects Lab Technology (2026)
+          </li>
+          <li>
+            Full-Stack Development (MERN), Smart Bridge &amp; APSCHE (2025)
+          </li>
+        </ul>
+      </section>
+      <section id="skills" class="sec tint">
+        <h2>Skills</h2>
+        <div class="skills-wrap">
+          <div
+            class="sphere"
+            id="sphere"
+            aria-label="3D sphere of my skills. Drag to rotate."
+          ></div>
+          <div><div id="bars"></div></div>
+        </div>
+      </section>
+      <section id="education" class="sec">
+        <h2>Education</h2>
+        <div class="edu" id="edu"></div>
+        <div id="eduExtra"></div>
+      </section>
+      <section id="contact" class="sec tint">
+        <h2>Contact</h2>
+        <div class="contact-grid">
+          <div class="links" id="links"></div>
+          <div class="map" id="map">
+            <svg
+              viewBox="250 0 500 340"
+              preserveAspectRatio="xMidYMid slice"
+              role="img"
+              aria-label="Illustrative map of BTM 1st Stage, Bengaluru"
+            >
+              <rect
+                x="-600"
+                y="-600"
+                width="2400"
+                height="1600"
+                fill="#E6EFEC"
+              />
+              <g id="mapg">
+                <rect
+                  x="315"
+                  y="185"
+                  width="80"
+                  height="60"
+                  rx="14"
+                  fill="#CBE5CF"
+                />
+                <rect
+                  x="610"
+                  y="28"
+                  width="120"
+                  height="48"
+                  rx="14"
+                  fill="#CBE5CF"
+                />
+                <ellipse cx="690" cy="262" rx="62" ry="34" fill="#BBD8EA" />
+                <g stroke="#fff" stroke-linecap="round" fill="none">
+                  <path
+                    stroke-width="7"
+                    d="M-500 35H1500M-500 125H1500M-500 215H1500M-500 305H1500M30 -500V900M210 -500V900M390 -500V900M570 -500V900M750 -500V900M930 -500V900"
+                  />
+                  <path
+                    stroke-width="14"
+                    d="M-500 -10H1500M-500 80H1500M-500 170H1500M-500 260H1500M-500 350H1500M-60 -500V900M120 -500V900M300 -500V900M480 -500V900M660 -500V900M840 -500V900M1020 -500V900"
+                  />
+                  <path stroke-width="26" d="M-400 413L1400 -73" />
+                </g>
+                <path
+                  d="M-400 413L1400 -73"
+                  stroke="#F6D68F"
+                  stroke-width="16"
+                  stroke-linecap="round"
+                  fill="none"
+                />
+              </g>
+              <ellipse
+                cx="500"
+                cy="172"
+                rx="20"
+                ry="6"
+                fill="#0F2A3D"
+                opacity=".2"
+              />
+              <path
+                d="M500 170C468 130 460 118 460 102A40 40 0 0 1 540 102C540 118 532 130 500 170Z"
+                fill="#0E7C86"
+              />
+              <circle cx="500" cy="102" r="14" fill="#fff" />
+              <rect
+                x="393"
+                y="188"
+                width="214"
+                height="54"
+                rx="10"
+                fill="#fff"
+                stroke="#D3E0E7"
+              />
+              <text
+                x="409"
+                y="212"
+                font-family="Arial,sans-serif"
+                font-size="18"
+                font-weight="700"
+                fill="#0F2A3D"
+              >
+                BTM 1st Stage
+              </text>
+              <text
+                x="409"
+                y="232"
+                font-family="Arial,sans-serif"
+                font-size="13"
+                fill="#4F6575"
+              >
+                Bengaluru, Karnataka
+              </text>
+            </svg>
+            <div class="zoom">
+              <button id="zIn" aria-label="Zoom in">+</button
+              ><button id="zOut" aria-label="Zoom out">&#8722;</button>
+            </div>
+            <div class="map-info">
+              <div>
+                <b>BTM 1st Stage, Bengaluru</b
+                ><span>Karnataka 560029 (illustrative map)</span>
+              </div>
+              <a
+                class="btn small"
+                href="https://www.google.com/maps/search/?api=1&amp;query=BTM+1st+Stage,+Bengaluru+560029"
+                target="_blank"
+                rel="noreferrer"
+                >Open in Google Maps</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>© 2026 Pavithra</footer>
+    <div
+      class="rmodal"
+      id="resumeModal"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Resume"
+      hidden
+    >
+      <div class="rpaper">
+        <button class="rclose" aria-label="Close resume">✕</button>
+        <div class="rtabs">
+          <button class="on" data-t="text">Resume</button
+          ><button data-t="pdf">Original PDF</button>
+        </div>
+        <div class="rbody"></div>
+        <div class="rpdf" hidden></div>
+      </div>
+    </div>
+    <div class="guide">
+      <div class="bubble" id="bubble" hidden aria-live="polite"></div>
+      <div class="gbar">
+        <select
+          class="vsel"
+          id="voiceSel"
+          aria-label="Guide voice"
+          hidden
+        ></select
+        ><button class="gbtn" id="tourBtn">▶ Hear my story</button>
+        <div class="bot" id="bot" aria-hidden="true">
+          <div class="eyes"><i></i><i></i></div>
+          <div class="mouth"></div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
